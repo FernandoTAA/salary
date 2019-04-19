@@ -7,7 +7,7 @@ A system to calculate net salary according to gross salary and salary deductions
 Create the package
 
 ```sh
-mvn package
+mvn clean package
 ```
 
 Run application 
@@ -19,3 +19,8 @@ java -jar taget/salary-1.0-SNAPSHOT.jar
 ### Create database
 
 Run class: com.fernandotaa.salary.DataLoader.java (in test scope)
+
+```sh
+mvn clean package
+java -cp target/salary-1.0-SNAPSHOT.jar com.fernandotaa.salary.DataLoader
+```
