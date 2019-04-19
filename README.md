@@ -24,3 +24,6 @@ Run class: com.fernandotaa.salary.DataLoader.java (in test scope)
 mvn clean package
 java -cp target/salary-1.0-SNAPSHOT.jar com.fernandotaa.salary.DataLoader
 ```
+
+## Main frame
+![Main frame](https://raw.githubusercontent.com/FernandoTAA/salary/master/docs/imgs/frame.png)
